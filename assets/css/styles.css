@@ -1,0 +1,23 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.tittle {
+  display: flex;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+  background-color: #c5e4e7;
+}
+.tittle h1 {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  color: #00494d;
+}
+
+/*# sourceMappingURL=styles.css.map */

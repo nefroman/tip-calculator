@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/tip-calculator-app-main/assets/css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <title>Tip Calculator</title>
+</head>
+<body>
+  <header class="tittle">
+    <h1>  
+      <span>spli</span>
+      <span>tter</span>
+    </h1>
+  </header>
+  <!--! Section HEADER -->
+  <main class="main">
+    <div class="bill">
+      <form id="formulario">
+        <div class="form">
+          <label for="bill">Bill</label>
+          <!--* Div Bill -->
+          <input type="Number" class="form-control"
+          placeholder="$">
+          <!--* Div input -->
+        </div>
+        <!--* Div form -->
+      </form>
+      <!--! Section FORM -->
+      <div class="tip">
+        <h3>
+          Select Tip %
+        </h3>
+        <button class="5" onclick="five()">5%</button>
+        <button class="10" onclick="five()">10%</button>
+        <button class="15" onclick="five()">15%</button>
+        <button class="25" onclick="five()">25%</button>
+        <button class="50" onclick="five()">50%</button>
+      </div>
+    </div>
+  </main>
+  <script src="/tip-calculator-app-main/assets/js/app01.js"></script>
+</body>
+</html>
