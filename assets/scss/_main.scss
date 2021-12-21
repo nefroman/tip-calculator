@@ -1,14 +1,16 @@
 .main {
+    -webkit-box-shadow: 0px -4px 13px 0px rgba(0,0,0,0.76);
+    -moz-box-shadow: 0px -4px 13px 0px rgba(0,0,0,0.76);
+    box-shadow: 0px -4px 13px 0px rgba(0,0,0,0.76);
     padding-left: 30px;
     padding-top: 30px;
     padding-right: 30px;
-    background-color: olive;
     border-top-left-radius: 5%;
     border-top-right-radius: 5%;
         .bill {
             
             .form {
-
+                margin-bottom: 20px;
                 display: flex;
                 flex-direction: column;
 
@@ -17,13 +19,13 @@
                     font-style: normal;
                     font-weight: bold;
                     font-size: 14px;
-                    color: $darkgrayishcyan2;
+                    color: $darkgrayishcyan1;
                     margin-bottom: 10px;
                     }
                     
                     input {
                     width: 100%;
-                    height: 25px;  
+                    height: 35px;  
                     outline: none;  
                     text-align: right;  
                     border-radius: 5%;  
@@ -32,6 +34,8 @@
                     font-weight: bold;
                     font-style: normal;
                     color: $verydarkcyan;
+                    background-color: $lightgrayishcyan1;
+                    border: none;
                     }
 
                     /* Chrome, Safari, Edge, Opera */
@@ -64,7 +68,7 @@
 
             .tip {
                 height: 150px;
-                padding-top: 20px;
+                padding-top: 5px;
                 display: grid;
                 gap: 15px;
                 grid-template-columns: repeat(2, 1fr);
@@ -74,9 +78,10 @@
                         justify-self: start;
                         font-family: $fuente1;
                         font-style: normal;
+                        font-style: normal;
                         font-weight: bold;
                         font-size: 14px;
-                        color: $darkgrayishcyan2;
+                        color: $darkgrayishcyan1;
 
                     }
 
@@ -90,11 +95,11 @@
                         font-size: 20px;
                         color: $white;
                         border-radius: 10px;
-                        box-shadow: none;
+                        border: none;
                     }
             }
         .form-aux {
-            padding-top: 80px;
+            padding-top: 70px;
         }
         }
 }
