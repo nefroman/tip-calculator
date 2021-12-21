@@ -22,27 +22,41 @@
     <div class="bill">
       <form id="formulario">
         <div class="form">
-          <label for="bill">Bill</label>
-          <!--* Div Bill -->
+          <label for="#" class="label">Bill</label>
+          <!--* Div label -->
           <input type="Number" class="form-control"
-          placeholder="$">
+            min="1">
           <!--* Div input -->
         </div>
         <!--* Div form -->
       </form>
-      <!--! Section FORM -->
+      <!--! Section FORMULARIO -->
       <div class="tip">
         <h3>
           Select Tip %
         </h3>
-        <button class="5" onclick="five()">5%</button>
-        <button class="10" onclick="five()">10%</button>
-        <button class="15" onclick="five()">15%</button>
-        <button class="25" onclick="five()">25%</button>
-        <button class="50" onclick="five()">50%</button>
+        <button class="5 caja" onclick="five()">5%</button>
+        <button class="10 caja" onclick="five()">10%</button>
+        <button class="15 caja" onclick="five()">15%</button>
+        <button class="25 caja" onclick="five()">25%</button>
+        <button class="50 caja" onclick="five()">50%</button>
+        <button class="custom caja" onclick="five()">Custom</button>
       </div>
+      <!--* Div TIP -->
+      <form id="formulario">
+        <div class="form">
+          <label for="#" class="label">Number of people</label>
+          <!--* Div label -->
+          <input type="Number" class="form-control"
+          min="1">
+          <!--* Div input -->
+        </div>
+        <!--* Div form -->
+      </form>
+      <!--! Section FORMULARIO -->
     </div>
+    <!--* Div BILL -->
   </main>
-  <script src="/tip-calculator-app-main/assets/js/app01.js"></script>
+<!--   <script src="/tip-calculator-app-main/assets/js/app01.js"></script> -->
 </body>
 </html>
