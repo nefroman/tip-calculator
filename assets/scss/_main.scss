@@ -8,22 +8,30 @@
         .bill {
             
             .form {
-                
+
                 display: flex;
                 flex-direction: column;
+
                     label {
                     font-family: $fuente1;
+                    font-style: normal;
                     font-weight: bold;
                     font-size: 14px;
                     color: $darkgrayishcyan2;
-                    
+                    margin-bottom: 10px;
                     }
                     
                     input {
                     width: 100%;
                     height: 25px;  
                     outline: none;  
-                    text-align: right;    
+                    text-align: right;  
+                    border-radius: 5%;  
+                    font-family: $fuente1;
+                    font-size: large;
+                    font-weight: bold;
+                    font-style: normal;
+                    color: $verydarkcyan;
                     }
 
                     /* Chrome, Safari, Edge, Opera */
@@ -38,6 +46,20 @@
                     -moz-appearance: textfield;
                     }
 
+                    .input-bill {
+                    background-image: url(/tip-calculator-app-main/assets/images/icon-dollar.svg);
+                    background-size: 10px;
+                    background-repeat: no-repeat;
+                    background-position: 5px center;
+                    }
+
+                    .input-control {
+                        background-image: url(/tip-calculator-app-main/assets/images/icon-person.svg);
+                        background-size: 10px;
+                        background-repeat: no-repeat;
+                        background-position: 5px center;
+                        
+                    }
             }
 
             .tip {
@@ -51,6 +73,7 @@
                         grid-column: 1/3;
                         justify-self: start;
                         font-family: $fuente1;
+                        font-style: normal;
                         font-weight: bold;
                         font-size: 14px;
                         color: $darkgrayishcyan2;
@@ -64,9 +87,14 @@
                         background-color: $verydarkcyan;
                         font-family: $fuente1;
                         font-weight: bold;
-                        font-size: 14px;
+                        font-size: 20px;
                         color: $white;
+                        border-radius: 10px;
+                        box-shadow: none;
                     }
             }
+        .form-aux {
+            padding-top: 80px;
+        }
         }
 }
