@@ -5,8 +5,8 @@
     padding-left: 30px;
     padding-top: 30px;
     padding-right: 30px;
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
+    border-radius: 13px;
+    height: 650px;
         .bill {
             
             .form {
@@ -36,6 +36,7 @@
                     color: $verydarkcyan;
                     background-color: $lightgrayishcyan1;
                     border: none;
+                    padding: 20px;
                     }
 
                     /* Chrome, Safari, Edge, Opera */
@@ -97,6 +98,11 @@
                         border-radius: 10px;
                         border: none;
                     }
+
+                    .On {
+                        background-color: $bluecolor;
+                        color: $verydarkcyan;
+                    } 
             }
         .form-aux {
             padding-top: 70px;

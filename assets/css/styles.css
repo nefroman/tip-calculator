@@ -29,8 +29,8 @@
   padding-left: 30px;
   padding-top: 30px;
   padding-right: 30px;
-  border-top-left-radius: 5%;
-  border-top-right-radius: 5%;
+  border-radius: 13px;
+  height: 650px;
 }
 .main .bill .form {
   margin-bottom: 20px;
@@ -60,6 +60,7 @@
   color: #00494d;
   background-color: #c5e4e7;
   border: none;
+  padding: 20px;
 }
 .main .bill .form input::-webkit-outer-spin-button,
 .main .bill .form input::-webkit-inner-spin-button {
@@ -110,6 +111,10 @@
   color: white;
   border-radius: 10px;
   border: none;
+}
+.main .bill .tip .On {
+  background-color: #26c0ab;
+  color: #00494d;
 }
 .main .bill .form-aux {
   padding-top: 70px;

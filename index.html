@@ -25,7 +25,7 @@
           <label for="#" class="label">Bill</label>
           <!--* Div label -->
           <input type="Number" class="form-control input-bill"
-            min="1" >
+            min="1">
           <!--* Div input -->
         </div>
         <!--* Div form -->
@@ -35,12 +35,12 @@
         <h3>
           Select Tip %
         </h3>
-        <button class="5 caja" onclick="five()">5%</button>
-        <button class="10 caja" onclick="five()">10%</button>
-        <button class="15 caja" onclick="five()">15%</button>
-        <button class="25 caja" onclick="five()">25%</button>
-        <button class="50 caja" onclick="five()">50%</button>
-        <button class="custom caja" onclick="five()">Custom</button>
+        <button class="caja off">5%</button>
+        <button class="caja off" >10%</button>
+        <button class="caja off" >15%</button>
+        <button class="caja off" >25%</button>
+        <button class="caja off" >50%</button>
+        <button class="custom off" >Custom</button>
       </div>
       <!--* Div TIP -->
       <form id="formulario">
@@ -61,8 +61,8 @@
         <p class="tip-person grid2">
           / person
         </p>
-        <div class="tip-total grid3">
-         <p><span class="dollar">$</span>0</p> 
+        <div class="tip-total grid3 propina">
+         <p>$<span class="dollar">0</span></p> 
         </div>
         <!--* Div tip total -->
         <h3 class="tip-amount grid4">Total</h3>
@@ -70,12 +70,12 @@
         <p class="tip-person grid5">
           / person
         </p>
-        <div class="tip-total grid6">
-         <p><span class="dollar">$</span>0</p> 
+        <div class="tip-total grid6 personas">
+         <p>$<span class="dollar">0</span></p> 
         </div>
         <!--* Div tip total -->
         <button class="reset">
-           Reset
+          <p class="buton-reset">Reset</p> 
         </button>
         <!--* Div button reset -->
     </div>
@@ -85,6 +85,6 @@
   <footer class="footer">
     Made for <a href="#">Juan Manuel Bermúdez Escobar.</a> Frontendmentor challenge
   </footer>
-<!--   <script src="/tip-calculator-app-main/assets/js/app01.js"></script> -->
+  <script src="/tip-calculator-app-main/assets/js/app01.js"></script>
 </body>
 </html>
