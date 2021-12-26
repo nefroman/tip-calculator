@@ -99,10 +99,33 @@
                         border: none;
                     }
 
-                    .On {
+                    .caja-custom {
+                        width: 100%;
+                        height: 40px;
+                        align-self: stretch;
+                        background-color: $verydarkcyan;
+                        font-family: $fuente1;
+                        font-weight: bold;
+                        font-size: 20px;
+                        color: $white;
+                        border-radius: 10px;
+                        border: none;
+                    }
+
+                    .caja:hover {
                         background-color: $bluecolor;
                         color: $verydarkcyan;
-                    } 
+                    }
+
+                    .caja:focus {
+                        background-color: $bluecolor;
+                        color: $verydarkcyan; 
+                    }
+
+/*                     .On {
+                        background-color: $bluecolor;
+                        color: $verydarkcyan;
+                    }  */
             }
         .form-aux {
             padding-top: 70px;
