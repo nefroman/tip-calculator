@@ -1,10 +1,10 @@
-//variables
+/* //variables
 
 const d = document;
 
 
 const bill = d.querySelector('.input-bill')
-const boton_custom = d.querySelector('.custom');
+const boton_custom = d.querySelector('.caja-custom');
 const botones = d.querySelectorAll('.caja');
 const numb_people = d.querySelector('.input-control');
 const tip_amount = d.querySelector('.propina .dollar');
@@ -116,14 +116,39 @@ function calcularTipAmountFifty (num, personas) {
         }
 }
 
+function customButon (){
+    const boton_custom = d.querySelector('.caja-custom').value;
+    const boton_custom_numb = Number.parseFloat(boton_custom);
+    const bill = d.querySelector('.input-bill').value;
+    const bill_num = Number.parseFloat(bill);
+    const numb_people  = d.querySelector('.input-control').value;
+    const numb_people_num = Number.parseFloat(numb_people);
+    calcularTipAmountCustom(bill_num, numb_people_num, boton_custom_numb);
+    resetAll();
+}
+
+function calcularTipAmountCustom (num, personas, custom) { 
+
+    let resultado = (num * (custom/100))/personas;
+    let resultadoTotal = (num * ((custom/100) + 1)/personas);
+    if (isNaN(resultado)) return
+    else  {
+        tip_amount.innerHTML = resultado;
+        total.innerHTML = resultadoTotal;
+    }
+}
+
+//funcion reset
 function resetAll(){
     boton_reset.addEventListener('click', () => {
         tip_amount.innerHTML = 0;
         total.innerHTML = 0;
         bill.value = '';
         numb_people.value = '';
+        boton_custom.value = '';
     })
 }
 
 
 
+ */

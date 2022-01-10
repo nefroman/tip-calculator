@@ -1,0 +1,14 @@
+@import "variables"; 
+
+.footer {
+    color: $verydarkcyan;
+    padding-top: 20px;
+        a {
+            text-decoration: none;
+            color: red;
+        }
+
+        a:hover {
+            cursor: pointer;
+        }
+}

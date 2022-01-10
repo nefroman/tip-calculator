@@ -90,6 +90,16 @@
             letter-spacing: 3px;
         }
 
-       
-   
+}
+
+
+@media (min-width: 768px) { 
+    .results {
+        display: grid;
+        
+        height: 95%;
+        width: 500px;
+    }
+
+
 }

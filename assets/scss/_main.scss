@@ -7,6 +7,7 @@
     padding-right: 30px;
     border-radius: 13px;
     height: 650px;
+    background-color: white;
         .bill {
             
             .form {
@@ -103,13 +104,27 @@
                         width: 100%;
                         height: 40px;
                         align-self: stretch;
-                        background-color: $verydarkcyan;
+                        background-color: $lightgrayishcyan1;
                         font-family: $fuente1;
                         font-weight: bold;
                         font-size: 20px;
-                        color: $white;
+                        color: $verydarkcyan;
                         border-radius: 10px;
                         border: none;
+                        text-align: right;
+                        padding: 15px;
+                    }
+
+                    .caja-custom::placeholder {
+                        text-align: center;
+                    }
+
+                    .caja-custom:hover {
+                        border: 2px solid $bluecolor ;
+                    }
+
+                    .caja-custom:focus {
+                        outline: none;
                     }
 
                     .caja:hover {
@@ -131,4 +146,20 @@
             padding-top: 70px;
         }
         }
+}
+
+@media (min-width: 768px) { 
+    .main {
+    width: 1000px;
+    height: 500px;
+    margin-left: 450px;
+/*     display: grid;
+    grid-template-columns: repeat(2,1fr); */
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+    
+    }
+
+
 }
